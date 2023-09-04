@@ -7,13 +7,13 @@ const Team = () => {
         <div className="team__top--wrapper">
           <img
             className="team__top--wrapper--img"
-            src="./assets/images/image-founder.webp"
+            src="../../assets/images/image-founder.webp"
             alt="founder"
           />
         </div>
         <div className="team__bottom--wrapper">
           <img
-            src="./assets/images/bg-pattern-3.svg"
+            src="../../assets/images/bg-pattern-3.svg"
             alt="bg-pattern-3"
             className="pattern-three"
           />

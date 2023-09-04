@@ -4,12 +4,12 @@ const Header = () => {
   return (
     <header>
       <img
-        src="./assets/images/bg-pattern-1.svg"
+        src="../../assets/images/bg-pattern-1.svg"
         alt="bg-pattern-1"
         className="pattern-one"
       />
       <img
-        src="./assets/images/bg-pattern-2.svg"
+        src="../../assets/images/bg-pattern-2.svg"
         alt="bg-pattern-2"
         className="pattern-two"
       />
@@ -17,7 +17,7 @@ const Header = () => {
         <nav>
           <img
             className="nav__img"
-            src="./assets/images/logo-light.svg"
+            src="../../assets/images/logo-light.svg"
             alt="logo-light"
           />
           <h1 className="link">Apply for access</h1>
@@ -31,7 +31,7 @@ const Header = () => {
           </div>
           <img
             className="hero__img"
-            src="./assets/images/image-hero.webp"
+            src="../../assets/images/image-hero.webp"
             alt="img-hero"
           />
         </div>

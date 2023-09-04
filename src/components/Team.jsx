@@ -1,4 +1,6 @@
 import React from 'react';
+import founderImage from '../../assets/images/image-founder.webp';
+import patternThreeImage from '../../assets/images/bg-pattern-3.svg';
 
 const Team = () => {
   return (
@@ -7,13 +9,13 @@ const Team = () => {
         <div className="team__top--wrapper">
           <img
             className="team__top--wrapper--img"
-            src="../../assets/images/image-founder.webp"
+            src={founderImage}
             alt="founder"
           />
         </div>
         <div className="team__bottom--wrapper">
           <img
-            src="../../assets/images/bg-pattern-3.svg"
+            src={patternThreeImage}
             alt="bg-pattern-3"
             className="pattern-three"
           />
@@ -21,7 +23,7 @@ const Team = () => {
           <span className="team__bottom--wrapper--description">
             Hi, I'm Louis Graham, the founder of the company. Book a demo call
             with me to become a beta tester for our app and kickstart your
-            company. Apply for access below and I’ll be in touch to schedule a
+            company. Apply for access below, and I’ll be in touch to schedule a
             call.
           </span>
           <button className="btn">Apply for access</button>

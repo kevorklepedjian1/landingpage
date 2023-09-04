@@ -2,7 +2,7 @@
 
 Welcome to the Workit Landing Page, a modern and responsive landing page template built with React.
 
-![Workit Landing Page Screenshot](screenshot.png)
+![Workit Landing Page Screenshot](public/assets/images/desktop.png)
 
 ## 🌐 Demo
 

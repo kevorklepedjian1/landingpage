@@ -1,15 +1,19 @@
 import React from 'react';
+import patternOneImage from '../../assets/images/bg-pattern-1.svg';
+import patternTwoImage from '../../assets/images/bg-pattern-2.svg';
+import logoLightImage from '../../assets/images/logo-light.svg';
+import heroImage from '../../assets/images/image-hero.webp';
 
 const Header = () => {
   return (
     <header>
       <img
-        src="../../assets/images/bg-pattern-1.svg"
+        src={patternOneImage}
         alt="bg-pattern-1"
         className="pattern-one"
       />
       <img
-        src="../../assets/images/bg-pattern-2.svg"
+        src={patternTwoImage}
         alt="bg-pattern-2"
         className="pattern-two"
       />
@@ -17,7 +21,7 @@ const Header = () => {
         <nav>
           <img
             className="nav__img"
-            src="../../assets/images/logo-light.svg"
+            src={logoLightImage}
             alt="logo-light"
           />
           <h1 className="link">Apply for access</h1>
@@ -31,7 +35,7 @@ const Header = () => {
           </div>
           <img
             className="hero__img"
-            src="../../assets/images/image-hero.webp"
+            src={heroImage}
             alt="img-hero"
           />
         </div>
